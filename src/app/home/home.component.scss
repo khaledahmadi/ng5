@@ -1,0 +1,40 @@
+.container{
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+
+.col{
+    padding: .4em 1.3em;
+}
+
+.color-dark{
+    background:darkblue;
+}
+
+.color-light{
+    background: cornflowerblue;
+}
+
+.txt{
+    padding: 1em;
+    width: 80%;
+    border:0;
+    margin-bottom: 2em;
+}
+
+.btn{
+    padding:1em 3em;
+    display: block;
+    background: chartreuse;
+    color: blue;
+    border: 0;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.container-life{
+    padding: .5em;
+    background:rgb(70, 125, 228);
+    font-weight: bold;
+    cursor: pointer;
+}
